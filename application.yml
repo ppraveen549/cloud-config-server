@@ -20,3 +20,8 @@ microservice:
     endpoints: 
       endpoint: 
         uri: http://MEETING-SERVICE/meeting/createMeeting
+management: 
+  endpoints: 
+    web:
+      exposure:
+        include: "*"
