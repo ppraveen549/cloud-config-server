@@ -1,5 +1,0 @@
-microservice: 
-  agenda-service:
-    endpoints: 
-      endpoint: 
-        uri: http://AGENDA-SERVICE/agenda/createAgenda
