@@ -3,3 +3,9 @@ microservice:
     endpoints: 
       endpoint: 
         uri: http://AGENDA-SERVICE/agenda/createAgenda
+        
+management: 
+  endpoints: 
+    web:
+      exposure:
+        include: "*"
